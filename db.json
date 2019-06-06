@@ -1,0 +1,48 @@
+{
+  "person": [
+    {
+      "id": 1,
+      "name": "Daniel"
+    },
+    {
+      "id": 2,
+      "name": "Kurt"
+    },
+    {
+      "id": 3,
+      "name": "Jacob"
+    },
+    {
+      "name": "</p><script>alert(\"xxs\")</script><p>",
+      "id": 5
+    },
+    {
+      "name": "",
+      "id": 6
+    },
+    {
+      "name": "</p><script>alert(\"xxs\")</script><p>",
+      "id": 7
+    },
+    {
+      "name": "</p><script>alert(\"xxs\")</script><p>",
+      "id": 8
+    },
+    {
+      "name": "</p><script>alert(\"xxs\")</script><p>",
+      "id": 9
+    },
+    {
+      "name": "<img src=\"/xxxxxx\" onerror=\"alert(\"xxs\")/>",
+      "id": 10
+    },
+    {
+      "name": "<img src=\"/xxxxxx\" onerror=\"alert(\"xxs\")\"/>",
+      "id": 11
+    },
+    {
+      "name": "<img src=\"/xxxxxx\" onerror=\"alert('xxs')\"/>",
+      "id": 12
+    }
+  ]
+}

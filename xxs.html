@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#000000" />
+		<title>React App</title>
+	</head>
+	<body>
+		<noscript>You need to enable JavaScript to run this app.</noscript>
+		<div>
+			<div id="names">bob</div>
+		</div>
+	</body>
+	<script>
+		const names = document.getElementById("names");
+
+		function updateUsers() {
+			fetch("http://localhost:4000/person")
+				.then(e => e.json())
+				.then(data => (names.innerHTML = data.map(p => "<p>" + p.name + "</p>")));
+		}
+		updateUsers();
+	</script>
+</html>
